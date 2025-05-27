@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctorr Application Form</title>
+    <style>
+       form{
+            margin: 15px;
+            text-align: justify;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <h1 style="text-align: center;"> Doctor Application Form </h1>
+    <div>
+        <hr style="border: 2px solid pink;align-items: end;"> 
+        <img src="https://thumbs.dreamstime.com/b/smiling-medical-doctor-woman-stethoscope-isolated-over-white-background-35552912.jpg" alt="Photo of a Doctor" height="550px" width="650px "  style="float:left;background-position: left;">
+    
+    <form>
+        
+        <label for="Appointment date">Appointment Date:</label>
+        <!-- <br> -->
+        <input type="date" >
+        <br>
+        <br>
+        <label for="Appointment time">Appointment time:</label>
+        <!-- <br> -->
+        <input type="time">
+        <br>
+        <br>
+        <label for="name">Name :
+            <!-- <br> -->
+        <input type="text" placeholder="first" name="first name">
+        <input type="text" placeholder="last" name="last name" >
+        </label>
+        <br>
+        <br>
+        <label for="Gender"> Gender:
+            <!-- <br> -->
+        <input type="radio" name="male" value="male">Male
+        <input type="radio" name="female" value="female" >Female
+        </label>
+        <br>
+        <br>
+        <label for="number">Phone number:
+            <!-- <br> -->
+            <input type="number" value="number" placeholder="######" style="width: 30%;">
+        </label>
+        <br>
+        <br>
+        <label for="Address"> Address: 
+            <!-- <br> -->
+            <input type="text" name="City" placeholder="City" >
+            <!-- <br>
+            <br> -->
+             <input type="text" name="State" placeholder="State" ">
+        </label>
+        <br>
+        <br>
+        <label for="Query">Your Query:
+            <br>
+            <!-- <input type="textarea" name="Query" placeholder="Type here...."> -->
+             <textarea name="query" rows="5" cols="70" >Type here...........</textarea>
+        </label>
+        <br>
+        <br>
+    <label for="Appointment type">Appointment type:
+        <br>
+        Select which appointmnet(s) you require
+         <br> 
+        <input type="checkbox" name="Cervix checkup" style="width: 5%;"> Cervix Checkup
+        <br>
+        <input type="checkbox" name="heart checkup" style="width: 5%;"> Heart Checkup
+        <br>
+        <input type="checkbox" name="eye check-up" style="width: 5%;"> eye check-up
+        <br>
+        <input type="checkbox" name="hearing test" style="width: 5%;"> hearing test<br> 
+    </label>
+    <br>
+   
+    <label for="send">
+        <input type="button" name="send" value="send" style="width: 25%;">
+    </label>
+    </form>
+    </div>
+</body>
+</html>
